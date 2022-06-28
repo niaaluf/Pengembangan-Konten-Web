@@ -238,6 +238,31 @@ section{
     color:#eee;
 }
 
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-image: url(img/card.png);
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    font-size: 20px;
+}
+
 /*About*/
 .about .row{
     display: flex;
@@ -270,6 +295,41 @@ section{
     line-height: 1.8;
 }
 
+/*order*/
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-occ{
+    width: 100px;
+    height: 180px;
+    flex-basis: 31%;
+    display: inline-block;
+    background-image: url(img/card.png);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0;
+    color: #fff;
+}
+p{
+    font-size: 13px;
+}
+.shop-occ:hover{
+    box-shadow: 0 0 20px 0px rgba(156, 60, 117, 0.3);
+}
 /*Menu*/
 .menu .box-container{
     display: grid;
